@@ -1,0 +1,29 @@
+### THIS PROJECT IS NOT MAINTAINED AND HAS ONLY BEEN PUBLISHED AS A DEMONSTRATION OF MY PAST WORK. ###
+All images needed to run the program are included in the repository.
+All package requirements listed in requirements.txt
+
+
+The program started as an attempt at making a story driven game in which the player would make branching
+choices that would affect the outcome of the story.
+
+However, what I ended up with is a solid demo of my ability to create an interactive, customized GUI using Tkinter.
+
+To start, install the needed dependencies and then run the gui.py file.
+
+The program starts at page one of the "story", with ever present script and info boxes to the right (at one point
+intended to serve the "player" game information).
+
+On each screen, the player is presented with a choice ranging from two to four choices, all of which bring the
+"player" to a new scene.
+On each scene after the first choice has been made, a back button will appear in the top left of the screen.
+
+The back button only allows the user to go back once, however. So if the user makes two choices, they
+can only use the back button to go back once, at which point it disappears.
+
+The most challenging (and therefore, most impressive to me) part of the program is the ability of the
+customized GUI elements (frames, buttons, labels) to size dynamically with the window while
+maintaining the correct layout (there is a lower limit to the size of the window where this holds true, however).
+BUT I have also set a minimum window size that enables to GUI to always be displayed correctly to correct this.
+
+Tkinter does not have built in support for this and to get it working correctly on my own was
+both challenging and a rewarding learning experience.
